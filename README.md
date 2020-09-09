@@ -5,8 +5,8 @@ Provides support Sass/SCSS in Docusaurus v2.
 ## Installation
 
 ```sh
-npm i docusaurus-plugin-sass node-sass --save-dev # or
-yarn add docusaurus-plugin-sass node-sass --dev
+npm i @djthoms/docusaurus-plugin-sass node-sass --save-dev # or
+yarn add @djthoms/docusaurus-plugin-sass node-sass --dev
 ```
 
 ## Differences from `docusaurus-plugin-sass`
@@ -21,7 +21,7 @@ This minimal fork makes `node-sass` a peer dependency since some projects might 
 // docusaurus.config.js
 module.exports = {
     // ...
-+   plugins: ['docusaurus-plugin-sass'],
++   plugins: ['@djthoms/docusaurus-plugin-sass'],
     // ...
 }
 ```
@@ -86,7 +86,7 @@ All options supported by [`sass-loader`](https://webpack.js.org/loaders/sass-loa
 module.exports = {
     plugins: [
         [
-            'docusaurus-plugin-sass',
+            '@djthoms/docusaurus-plugin-sass',
             {
                 implementation: require('sass'),
             },
