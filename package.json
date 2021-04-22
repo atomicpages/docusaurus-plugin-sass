@@ -7,11 +7,8 @@
         "access": "public"
     },
     "dependencies": {
-        "sass-loader": "^10.0.0"
-    },
-    "peerDependencies": {
-        "@docusaurus/core": "^2.0.0",
-        "node-sass": "^4.0.0"
+        "sass": "^1.30.0",
+        "sass-loader": "^11.0.0"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -25,17 +22,15 @@
         "scss",
         "css"
     ],
-    "author": "rlamana",
+    "author": "Dennis Thompson",
     "license": "MIT",
     "readme": "README.md",
     "bugs": {
         "url": "https://github.com/atomicpages/docusaurus-plugin-sass/issues"
     },
     "devDependencies": {
-        "@djthoms/eslint-config": "^3.0.0",
-        "@djthoms/prettier-config": "^2.0.0",
-        "eslint": "^7.8.1",
-        "prettier": "^2.1.1"
+        "@djthoms/eslint-config": "^4.0.0",
+        "@djthoms/prettier-config": "^3.0.0"
     },
     "prettier": "@djthoms/prettier-config",
     "eslintConfig": {
